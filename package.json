@@ -1,0 +1,23 @@
+{
+  "name": "contect-form-forget-password-example",
+  "version": "1.0.0",
+  "description": "sample contect-form-forget-password-example",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node app.js",
+    "server" : "nodemon app.js",
+    "client" : "npm run start --prefix client",
+    "dev" : "concurrently \"npm run server\" \"npm run client\" "
+
+  },
+  "author": "Nadia",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "concurrently": "^4.1.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.1.0",
+    "nodemon": "^1.19.1"
+  }
+}
